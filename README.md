@@ -6,7 +6,7 @@ Nebula graph 2.0使用用例
 * Springboot应用提供nebula图库的查询API和DDL、DML API
 * test包含Nebula v2.0测试用例
 
-##测试方法
+## 测试方法
 
  **运行 cn.tongdun.yuntu.NebulaServiceMainTest**
  
@@ -24,7 +24,8 @@ Nebula graph 2.0使用用例
  nebulaConfig.setHosts("10.58.14.36:3699");
  </code>
 
-##应用运行
+## 应用运行
+
 修改src/main/resources/application.properties中nebula.hosts参数
 
 `nebula.hosts=10.58.14.36:3699`
@@ -35,7 +36,7 @@ Nebula graph 2.0使用用例
 
 `java -jar target/nebulav2-usage.jar`
 
-##浏览器中访问
+## 浏览器中访问
 **查询子图**
 
 http://localhost:8011/nebula/query?sql=get%20subgraph%20from%201
