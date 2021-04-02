@@ -1,3 +1,49 @@
+target
+target/*
+logs/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### Eclipse ###
+.eclipse/
+.project
+.classpath
+
+# misc
+.DS_Store
+*/.DS_Store
+**/*.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+dependency-reduced-pom.xml
+**/dependency-reduced-pom.xml
+
 # Compiled class file
 *.class
 
