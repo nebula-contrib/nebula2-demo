@@ -1,4 +1,4 @@
-package cn.tongdun.yuntu.nebulausage;
+package myproject.dropping.nebulausage;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * Spring boot 入口类
  *
- * @author liuyou
+ * @author dropping
  * @date 2021/4/1
  */
 @Controller
-@ComponentScan(basePackages = {"cn.tongdun.yuntu"})
+@ComponentScan(basePackages = {"myproject.dropping.nebulausage"})
 @Configuration
 @EnableAutoConfiguration
 @Slf4j

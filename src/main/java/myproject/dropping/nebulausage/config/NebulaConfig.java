@@ -1,6 +1,6 @@
-package cn.tongdun.yuntu.nebulausage.config;
+package myproject.dropping.nebulausage.config;
 
-import cn.tongdun.yuntu.nebulausage.common.GraphDatabaseException;
+import myproject.dropping.nebulausage.common.GraphDatabaseException;
 import com.vesoft.nebula.client.graph.data.HostAddress;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Nebula配置对象
  *
- * @author liuyou
+ * @author dropping
  * @date 2021/4/1
  */
 @Data

@@ -1,10 +1,10 @@
-package cn.tongdun.yuntu.nebulausage.service.impl;
+package myproject.dropping.nebulausage.service.impl;
 
-import cn.tongdun.yuntu.nebulausage.common.GraphDatabaseException;
-import cn.tongdun.yuntu.nebulausage.config.NebulaConfig;
-import cn.tongdun.yuntu.nebulausage.dto.NebulaResultSet;
-import cn.tongdun.yuntu.nebulausage.service.NebulaService;
-import cn.tongdun.yuntu.nebulausage.utils.NebulaUtils;
+import myproject.dropping.nebulausage.common.GraphDatabaseException;
+import myproject.dropping.nebulausage.config.NebulaConfig;
+import myproject.dropping.nebulausage.dto.NebulaResultSet;
+import myproject.dropping.nebulausage.service.NebulaService;
+import myproject.dropping.nebulausage.utils.NebulaUtils;
 import com.vesoft.nebula.Row;
 import com.vesoft.nebula.client.graph.NebulaPoolConfig;
 import com.vesoft.nebula.client.graph.data.ResultSet;
@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author liuyou
+ * @author dropping
  * @date 2021/3/26
  */
 @Service

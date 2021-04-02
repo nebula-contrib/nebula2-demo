@@ -1,9 +1,9 @@
-package cn.tongdun.yuntu.nebulausage.utils;
+package myproject.dropping.nebulausage.utils;
 
-import cn.tongdun.yuntu.nebulausage.entity.EdgeDO;
-import cn.tongdun.yuntu.nebulausage.entity.PathDO;
-import cn.tongdun.yuntu.nebulausage.entity.TagDO;
-import cn.tongdun.yuntu.nebulausage.entity.VertexDO;
+import myproject.dropping.nebulausage.entity.EdgeDO;
+import myproject.dropping.nebulausage.entity.PathDO;
+import myproject.dropping.nebulausage.entity.TagDO;
+import myproject.dropping.nebulausage.entity.VertexDO;
 import com.vesoft.nebula.Edge;
 import com.vesoft.nebula.NList;
 import com.vesoft.nebula.NMap;
@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * Nebula结果集到DO对象的转换工具类
  *
- * @author liuyou
+ * @author dropping
  * @date 2021/4/1
  */
 public class NebulaUtils {

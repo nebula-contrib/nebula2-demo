@@ -1,11 +1,11 @@
-package cn.tongdun.yuntu.nebulausage.dto;
+package myproject.dropping.nebulausage.dto;
 
 import lombok.Data;
 
 /**
  * Web层统一封装的API接口返回值数据结构
  *
- * @author liuyou
+ * @author dropping
  * @date 2021/4/1
  */
 @Data

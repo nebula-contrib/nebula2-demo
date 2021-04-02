@@ -1,12 +1,12 @@
-package cn.tongdun.yuntu.nebulausage.service;
+package myproject.dropping.nebulausage.service;
 
-import cn.tongdun.yuntu.nebulausage.common.GraphDatabaseException;
-import cn.tongdun.yuntu.nebulausage.dto.NebulaResultSet;
+import myproject.dropping.nebulausage.common.GraphDatabaseException;
+import myproject.dropping.nebulausage.dto.NebulaResultSet;
 
 /**
  * Nebula服务层接口
  *
- * @author liuyou
+ * @author dropping
  * @date 2021/4/1
  */
 public interface NebulaService {

@@ -1,10 +1,10 @@
-package cn.tongdun.yuntu.nebulausage.common;
+package myproject.dropping.nebulausage.common;
 
 
 import com.vesoft.nebula.meta.ErrorCode;
 
 /**
- * @author liuyou
+ * @author dropping
  * @date 2021/4/1
  */
 public class GraphDatabaseException extends Exception {

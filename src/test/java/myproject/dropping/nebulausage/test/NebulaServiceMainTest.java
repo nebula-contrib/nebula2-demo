@@ -1,12 +1,12 @@
-package cn.tongdun.yuntu;
+package myproject.dropping.nebulausage.test;
 
-import cn.tongdun.yuntu.nebulausage.common.GraphDatabaseException;
-import cn.tongdun.yuntu.nebulausage.config.NebulaConfig;
-import cn.tongdun.yuntu.nebulausage.dto.NebulaResultSet;
-import cn.tongdun.yuntu.nebulausage.entity.PathDO;
-import cn.tongdun.yuntu.nebulausage.entity.VertexDO;
-import cn.tongdun.yuntu.nebulausage.service.NebulaService;
-import cn.tongdun.yuntu.nebulausage.service.impl.NebulaServiceImpl;
+import myproject.dropping.nebulausage.common.GraphDatabaseException;
+import myproject.dropping.nebulausage.config.NebulaConfig;
+import myproject.dropping.nebulausage.dto.NebulaResultSet;
+import myproject.dropping.nebulausage.entity.PathDO;
+import myproject.dropping.nebulausage.entity.VertexDO;
+import myproject.dropping.nebulausage.service.NebulaService;
+import myproject.dropping.nebulausage.service.impl.NebulaServiceImpl;
 import com.alibaba.fastjson.JSON;
 import com.vesoft.nebula.meta.ErrorCode;
 import lombok.extern.slf4j.Slf4j;
@@ -30,9 +30,9 @@ import static org.junit.Assert.assertTrue;
  * <p>
  * 运行前，先配置getNebulaConfig中的服务器地址
  * NebulaConfig nebulaConfig = new NebulaConfig();
- * nebulaConfig.setHosts("10.58.14.36:3699");
+ * nebulaConfig.setHosts("10.58.14.35:3699");
  *
- * @author liuyou
+ * @author dropping
  * @date 2021/4/1
  */
 @Slf4j
@@ -296,7 +296,7 @@ public class NebulaServiceMainTest {
      */
     private static NebulaConfig getNebulaConfig() {
         NebulaConfig nebulaConfig = new NebulaConfig();
-        nebulaConfig.setHosts("10.58.14.36:3699");
+        nebulaConfig.setHosts("10.58.14.35:3699");
         nebulaConfig.setSpaceName("mock_space");
         nebulaConfig.setUser("root");
         nebulaConfig.setPassword("nebula");

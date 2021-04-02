@@ -8,7 +8,7 @@ Nebula graph 2.0使用用例
 
 ## 测试方法
 
- **运行 cn.tongdun.yuntu.NebulaServiceMainTest**
+ **运行 myproject.dropping.nebulausage.test.NebulaServiceMainTest**
  
  用例场景包括：
  * 新建/删除图谱
@@ -21,18 +21,18 @@ Nebula graph 2.0使用用例
  *运行前，先配置getNebulaConfig中的服务器地址*
  <code>
  NebulaConfig nebulaConfig = new NebulaConfig();
- nebulaConfig.setHosts("10.58.14.36:3699");
+ nebulaConfig.setHosts("10.58.14.35:3699");
  </code>
 
 ## 应用运行
 
 修改src/main/resources/application.properties中nebula.hosts参数
 
-`nebula.hosts=10.58.14.36:3699`
+`nebula.hosts=10.58.14.35:3699`
 
 在根目录运行
 
-`mvn package`
+`mvn clean package`
 
 `java -jar target/nebulav2-usage.jar`
 
@@ -42,4 +42,5 @@ Nebula graph 2.0使用用例
 http://localhost:8011/nebula/query?sql=get%20subgraph%20from%201
 
 **拓展查询**
+
 http://localhost:8011/nebula/extend?vertexId=1&steps=2

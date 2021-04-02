@@ -1,4 +1,4 @@
-package cn.tongdun.yuntu.nebulausage.entity;
+package myproject.dropping.nebulausage.entity;
 
 import lombok.Data;
 
@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * 边数据结构
  *
- * @author liuyou
+ * @author dropping
  * @date 2021/4/1
  */
 @Data

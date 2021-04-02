@@ -1,4 +1,4 @@
-package cn.tongdun.yuntu.nebulausage.dto;
+package myproject.dropping.nebulausage.dto;
 
 import lombok.Data;
 
@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * Nebula返回结果集数据结构
  *
- * @author liuyou
+ * @author dropping
  * @date 2021/4/1
  */
 @Data

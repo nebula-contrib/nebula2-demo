@@ -1,9 +1,9 @@
-package cn.tongdun.yuntu.nebulausage.controller;
+package myproject.dropping.nebulausage.controller;
 
-import cn.tongdun.yuntu.nebulausage.config.NebulaConfig;
-import cn.tongdun.yuntu.nebulausage.dto.ApiResult;
-import cn.tongdun.yuntu.nebulausage.dto.NebulaResultSet;
-import cn.tongdun.yuntu.nebulausage.service.NebulaService;
+import myproject.dropping.nebulausage.config.NebulaConfig;
+import myproject.dropping.nebulausage.dto.ApiResult;
+import myproject.dropping.nebulausage.dto.NebulaResultSet;
+import myproject.dropping.nebulausage.service.NebulaService;
 import com.vesoft.nebula.meta.ErrorCode;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -21,7 +21,7 @@ import java.util.Map;
 
 
 /**
- * @author liuyou
+ * @author dropping
  */
 @RequestMapping("/nebula")
 @RestController
